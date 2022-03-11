@@ -18,13 +18,14 @@ function obtenerValoresFormulario() {
 
     // Formas de crear un objeto
     // Inicializar un objeto con propiedades
-    let usuario = { celular, "clave": clave }
+    let usuario = { celular, "clave":clave }
 
     //Agregar propiedades a un JSON
     usuario.correo = correo
     usuario.direccion = direccion
 
     //Agregar propiedades con Bracket notation ["key"]
+    usuario["nombre"] = nombre 
     usuario["nombre"] = nombre
 
     // Forma resumida de crear el objeto 
